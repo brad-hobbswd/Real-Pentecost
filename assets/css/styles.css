@@ -428,6 +428,42 @@ ANIMATIONS
 }
 
 /*=========================
+SCROLLED NAVIGATION
+=========================*/
+
+.navigation.scrolled{
+
+    background:rgba(7,23,38,.96);
+
+    box-shadow:0 10px 40px rgba(0,0,0,.25);
+
+}
+
+/*=========================
+FADE UP
+=========================*/
+
+.fade-up{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:all .8s ease;
+
+}
+
+.fade-up.visible{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+
+/*=========================
 RESPONSIVE
 =========================*/
 
