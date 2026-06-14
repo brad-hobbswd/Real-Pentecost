@@ -434,21 +434,39 @@ EXPLORE
     color:var(--midnight);
 
 }
-/*=========================
-SCRIPTURE
-=========================*/
+/*==================================================
+FEATURED SCRIPTURE
+==================================================*/
 
-.scripture{
+.featured-scripture{
 
     background:var(--midnight);
 
-    text-align:center;
+    padding:9rem 0;
 
-    color:white;
+    text-align:center;
 
 }
 
-.scripture blockquote{
+.scripture-label{
+
+    display:inline-block;
+
+    margin-bottom:2rem;
+
+    font-family:"Montserrat",sans-serif;
+
+    text-transform:uppercase;
+
+    letter-spacing:.25em;
+
+    font-size:.8rem;
+
+    color:var(--gold);
+
+}
+
+.featured-scripture blockquote{
 
     max-width:900px;
 
@@ -456,23 +474,13 @@ SCRIPTURE
 
     font-family:"Playfair Display",serif;
 
-    font-size:clamp(2rem,4vw,3.25rem);
+    font-size:clamp(2rem,4vw,3.75rem);
 
     line-height:1.4;
 
-    color:var(--gold);
+    color:#ffffff;
 
-}
-
-.scripture p{
-
-    margin:2rem auto 0;
-
-    font-family:"Montserrat",sans-serif;
-
-    letter-spacing:.2em;
-
-    text-transform:uppercase;
+    font-weight:600;
 
 }
 
