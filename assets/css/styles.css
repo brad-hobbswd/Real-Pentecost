@@ -96,7 +96,7 @@ CONTAINER
 
 .container{
 
-    width:min(1280px,92%);
+    width:min(1200px,90%);
 
     margin:auto;
 
@@ -147,9 +147,9 @@ p{
 
 }
 
-/*=========================
+/*==================================================
 NAVIGATION
-=========================*/
+==================================================*/
 
 .navigation{
 
@@ -167,13 +167,23 @@ NAVIGATION
 
     align-items:center;
 
-    padding:1.5rem 5%;
+    padding:1.75rem 5%;
 
-    z-index:1000;
+    z-index:9999;
 
-    backdrop-filter:blur(14px);
+    backdrop-filter:blur(18px);
 
-    background:rgba(7,23,38,.45);
+    background:rgba(7,23,38,.12);
+
+    transition:all .35s ease;
+
+}
+
+.navigation.scrolled{
+
+    background:rgba(7,23,38,.90);
+
+    box-shadow:0 10px 40px rgba(0,0,0,.20);
 
 }
 
@@ -189,15 +199,19 @@ NAVIGATION
 
 .navigation a{
 
-    color:white;
+    color:#ffffff;
 
     font-family:"Montserrat",sans-serif;
 
-    font-size:.9rem;
+    font-size:.85rem;
+
+    font-weight:600;
 
     letter-spacing:.12em;
 
     text-transform:uppercase;
+
+    transition:color .3s ease;
 
 }
 
@@ -211,7 +225,7 @@ NAVIGATION
 
     font-family:"Playfair Display",serif;
 
-    font-size:1.5rem;
+    font-size:1.35rem;
 
     font-weight:700;
 
@@ -225,9 +239,15 @@ HERO
 
     position:relative;
 
-    height:100vh;
+    display:flex;
 
-    min-height:700px;
+    align-items:flex-end;
+
+    justify-content:flex-start;
+
+    height:92vh;
+
+    min-height:720px;
 
     padding:0;
 
@@ -248,9 +268,15 @@ HERO
     inset:0;
 
     background:linear-gradient(
+
         to bottom,
-        rgba(7,23,38,.20),
-        rgba(7,23,38,.45)
+
+        rgba(7,23,38,.08) 0%,
+
+        rgba(7,23,38,.18) 40%,
+
+        rgba(7,23,38,.38) 100%
+
     );
 
 }
