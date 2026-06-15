@@ -357,37 +357,23 @@ INTERIOR PAGE HERO
 
 .page-hero{
 
-    position:relative;
+    display:flex;
 
-    width:100%;
+    align-items:center;
 
-    height:280px;
+    justify-content:center;
 
-    overflow:hidden;
+    min-height:220px;
 
-    background-image:url("../../AB10370E-2A4D-4C9F-AEE8-569AA32E2202.png");
-
-    background-repeat:no-repeat;
-
-    background-position:center center;
-
-    background-size:cover;
-
-}
-
-.page-hero-overlay{
-
-    position:absolute;
-
-    inset:0;
+    padding:7rem 0 4rem;
 
     background:linear-gradient(
-
-        rgba(7,23,38,.08),
-
-        rgba(7,23,38,.25)
-
+        180deg,
+        #071726 0%,
+        #10273d 100%
     );
+
+    text-align:center;
 
 }
 
