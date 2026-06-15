@@ -342,6 +342,30 @@ INTERIOR NAVIGATION
 
 }
 
+.interior-page .page-hero{
+
+    padding-top:4rem;
+
+}
+
+/*==================================================
+INTERIOR PAGES
+==================================================*/
+
+.interior-page .navigation{
+
+    position:relative;
+
+    background:#071726;
+
+    backdrop-filter:none;
+
+    border-bottom:1px solid rgba(223,174,66,.18);
+
+    box-shadow:none;
+
+}
+
 
 /*==================================================
 HERO
