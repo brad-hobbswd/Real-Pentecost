@@ -244,7 +244,17 @@ NAVIGATION
 
     font-weight:700;
 
-    margin:auto;
+}
+
+.interior-page .navigation{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:1rem 3rem;
 
 }
 
@@ -426,24 +436,6 @@ HERO
     );
 
     pointer-events:none;
-
-}
-
-.page-hero{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    text-align:center;
-
-    padding:4rem 0 5rem;
-
-    background:#071726;
-
-    color:#ffffff;
 
 }
 
@@ -746,6 +738,12 @@ CONTINUE
 
 }
 
+.book-content{
+
+    max-width:700px;
+
+}
+
 .book-cover img{
 
     width:100%;
@@ -838,6 +836,26 @@ FADE UP
     opacity:1;
 
     transform:translateY(0);
+
+}
+
+.book-cover{
+
+    position:relative;
+
+}
+
+.book-cover img{
+
+    transition:.4s ease;
+
+}
+
+.book-cover img:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 40px 90px rgba(0,0,0,.22);
 
 }
 
