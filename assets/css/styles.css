@@ -225,11 +225,15 @@ HERO
 
     position:relative;
 
-    min-height:100vh;
+    height:100vh;
 
-    background-image:url("AB10370E-2A4D-4C9F-AEE8-569AA32E2202.png");
+    min-height:700px;
 
-    background-position:center;
+    padding:0;
+
+    background-image:url("../../AB10370E-2A4D-4C9F-AEE8-569AA32E2202.png");
+
+    background-position:center center;
 
     background-repeat:no-repeat;
 
@@ -255,7 +259,7 @@ HERO
 SECTIONS
 =========================*/
 
-section{
+section:not(.hero){
 
     padding:8rem 0;
 
