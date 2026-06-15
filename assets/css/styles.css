@@ -242,6 +242,8 @@ HERO
 .hero{
 
     position:relative;
+    
+    overflow:hidden;
 
     height:auto;
 
@@ -260,6 +262,18 @@ HERO
     aspect-ratio:3 / 2;
 
 }
+
+.hero-image{
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+    vertical-align:middle;
+    
+    }
 
 .hero-overlay{
 
