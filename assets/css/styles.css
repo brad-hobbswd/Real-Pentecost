@@ -288,6 +288,60 @@ NAVIGATION
 }
 
 
+/*==================================================
+INTERIOR NAVIGATION
+==================================================*/
+
+.interior-nav{
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:1.5rem 3rem;
+
+    background:#071726;
+
+    border-bottom:1px solid rgba(223,174,66,.20);
+
+}
+
+.interior-nav a{
+
+    color:#ffffff;
+
+}
+
+.interior-nav a:hover{
+
+    color:#dfae42;
+
+}
+
+.interior-nav .logo{
+
+    font-size:1.4rem;
+
+    letter-spacing:.08em;
+
+}
+
+.interior-nav ul{
+
+    display:flex;
+
+    gap:2rem;
+
+    list-style:none;
+
+    align-items:center;
+
+}
+
 
 /*==================================================
 HERO
@@ -348,6 +402,42 @@ HERO
     );
 
     pointer-events:none;
+
+}
+
+.page-hero{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding:4rem 0 5rem;
+
+    background:#071726;
+
+    color:#ffffff;
+
+}
+
+.page-hero h1{
+
+    color:#ffffff;
+
+    margin-bottom:1rem;
+
+}
+
+.page-hero p{
+
+    color:#d8d2c8;
+
+    margin:auto;
+
+    max-width:700px;
 
 }
 
