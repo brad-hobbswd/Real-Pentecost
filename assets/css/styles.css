@@ -784,6 +784,8 @@ MOBILE
         background-position:center top;
 
         background-repeat:no-repeat;
+        
+        min-height:240px;
 
     }
 
@@ -838,6 +840,41 @@ MOBILE
     z-index:9998;
 
 }
+
+.cards{
+
+    grid-template-columns:1fr;
+
+    gap:1.5rem;
+
+}
+
+.card{
+
+    padding:2rem;
+
+}
+
+.section-heading{
+
+    margin-bottom:3rem;
+
+}
+
+.card p{
+
+    max-width:none;
+
+}
+
+.container{
+
+    width:92%;
+
+    max-width:100%;
+
+}
+
 }
 
 /*------------------------------
