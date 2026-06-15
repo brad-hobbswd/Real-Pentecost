@@ -785,6 +785,76 @@ CONTINUE
 }
 
 /*==================================================
+CHAPTER LIST
+==================================================*/
+
+.chapter-list{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+}
+
+.chapter-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:2rem 0;
+
+    border-bottom:1px solid rgba(7,23,38,.10);
+
+    transition:.3s ease;
+
+}
+
+.chapter-item:hover{
+
+    padding-left:1rem;
+
+    border-color:var(--gold);
+
+}
+
+.chapter-number{
+
+    font-family:"Montserrat",sans-serif;
+
+    color:var(--gold);
+
+    letter-spacing:.15em;
+
+    margin-right:2rem;
+
+    min-width:60px;
+
+}
+
+.chapter-title{
+
+    flex:1;
+
+    font-family:"Playfair Display",serif;
+
+    font-size:1.5rem;
+
+    color:var(--midnight);
+
+}
+
+.chapter-arrow{
+
+    color:var(--gold);
+
+    font-size:1.25rem;
+
+}
+
+/*==================================================
 FOOTER
 ==================================================*/
 
@@ -911,9 +981,6 @@ FADE UP
 .book-cover{
 
     position:relative;
-
-}
-
 
 }
 
@@ -1164,6 +1231,28 @@ MOBILE
     width:92%;
 
     max-width:100%;
+
+}
+
+.chapter-item{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:.75rem;
+
+}
+
+.chapter-title{
+
+    font-size:1.25rem;
+
+}
+
+.chapter-arrow{
+
+    display:none;
 
 }
 
