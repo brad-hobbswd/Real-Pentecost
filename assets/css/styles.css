@@ -935,6 +935,38 @@ TABLETS
         display:none;
 
     }
+    
+    .navigation ul.show{
+
+    display:flex;
+
+    flex-direction:column;
+
+    position:fixed;
+
+    top:70px;
+
+    left:0;
+
+    width:100%;
+
+    height:calc(100vh - 70px);
+
+    justify-content:flex-start;
+
+    align-items:center;
+
+    gap:2rem;
+
+    padding-top:3rem;
+
+    background:rgba(7,23,38,.97);
+
+    backdrop-filter:blur(18px);
+
+    z-index:9998;
+
+}
 
     h1{
 
@@ -1022,43 +1054,7 @@ MOBILE
 
 }
 
-.navigation ul{
 
-    display:none;
-
-}
-
-.navigation ul.show{
-
-    display:flex;
-
-    flex-direction:column;
-
-    position:fixed;
-
-    top:70px;
-
-    left:0;
-
-    width:100%;
-
-    height:calc(100vh - 70px);
-
-    justify-content:flex-start;
-
-    align-items:center;
-
-    gap:2rem;
-
-    padding-top:3rem;
-
-    background:rgba(7,23,38,.97);
-
-    backdrop-filter:blur(18px);
-
-    z-index:9998;
-
-}
 
 .cards{
 
