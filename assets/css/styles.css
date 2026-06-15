@@ -778,25 +778,82 @@ CONTINUE
 
 }
 
-/*=========================
+/*==================================================
 FOOTER
-=========================*/
+==================================================*/
 
 footer{
 
     background:var(--midnight);
 
-    color:white;
+    color:#ffffff;
 
-    text-align:center;
-
-    padding:5rem 0;
+    padding:5rem 0 2rem;
 
 }
 
-footer p{
+.footer-grid{
 
-    margin:auto;
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr;
+
+    gap:4rem;
+
+    align-items:start;
+
+}
+
+.footer-grid h3,
+.footer-grid h4{
+
+    color:#ffffff;
+
+    margin-bottom:1.5rem;
+
+}
+
+.footer-grid p{
+
+    color:rgba(255,255,255,.75);
+
+    max-width:none;
+
+    margin-bottom:0;
+
+}
+
+.footer-grid a{
+
+    display:block;
+
+    color:rgba(255,255,255,.75);
+
+    margin-bottom:.9rem;
+
+    transition:.3s ease;
+
+}
+
+.footer-grid a:hover{
+
+    color:var(--gold);
+
+}
+
+.copyright{
+
+    margin-top:4rem;
+
+    padding-top:2rem;
+
+    border-top:1px solid rgba(255,255,255,.12);
+
+    text-align:center;
+
+    color:rgba(255,255,255,.55);
+
+    font-size:.9rem;
 
 }
 
@@ -1005,7 +1062,21 @@ TABLETS
         max-width:320px;
 
         margin:auto;
+}
 
+  .footer-grid{
+
+        grid-template-columns:1fr;
+
+        gap:3rem;
+
+        text-align:center;
+
+    }
+
+    .footer-grid p{
+
+        margin:0 auto;
     }
 
 }
