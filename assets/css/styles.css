@@ -34,6 +34,17 @@ body{
 
 }
 
+html,
+body{
+
+    width:100%;
+
+    max-width:100%;
+
+    overflow-x:hidden;
+
+}
+
 /*=========================
 VARIABLES
 =========================*/
@@ -272,59 +283,7 @@ NAVIGATION
 
 }
 
-@media(max-width:768px){
 
-    .navigation{
-
-        display:flex;
-
-        justify-content:space-between;
-
-        align-items:center;
-
-        padding:1rem 1.5rem;
-
-    }
-
-    .menu-toggle{
-
-        display:flex;
-
-    }
-
-    .navigation ul{
-
-        display:none;
-
-    }
-
-    .navigation ul.show{
-
-        display:flex;
-
-        position:absolute;
-
-        top:100%;
-
-        left:0;
-
-        width:100%;
-
-        flex-direction:column;
-
-        align-items:center;
-
-        gap:1.5rem;
-
-        padding:2rem 0;
-
-        background:rgba(7,23,38,.96);
-
-        backdrop-filter:blur(18px);
-
-    }
-
-}
 
 /*==================================================
 HERO
@@ -512,7 +471,7 @@ EXPLORE
 
     display:grid;
 
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 
     gap:2rem;
 
