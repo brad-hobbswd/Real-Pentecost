@@ -167,23 +167,25 @@ NAVIGATION
 
     align-items:center;
 
-    padding:1.75rem 5%;
+    padding:1rem 3rem;
 
     z-index:9999;
 
-    backdrop-filter:blur(18px);
+    background:transparent;
 
-    background:rgba(7,23,38,.12);
+    backdrop-filter:none;
 
-    transition:all .35s ease;
+    transition:.35s ease;
+    
+    
 
 }
 
 .navigation.scrolled{
 
-    background:rgba(7,23,38,.90);
+    background:rgba(7,23,38,.85);
 
-    box-shadow:0 10px 40px rgba(0,0,0,.20);
+    backdrop-filter:blur(12px);
 
 }
 
@@ -203,7 +205,7 @@ NAVIGATION
 
     font-family:"Montserrat",sans-serif;
 
-    font-size:.85rem;
+    font-size:.8rem;
 
     font-weight:600;
 
@@ -225,7 +227,9 @@ NAVIGATION
 
     font-family:"Playfair Display",serif;
 
-    font-size:1.35rem;
+    font-size:1rem;
+
+    letter-spacing:.08em;
 
     font-weight:700;
 
@@ -239,13 +243,7 @@ HERO
 
     position:relative;
 
-    display:flex;
-
-    align-items:flex-end;
-
-    justify-content:flex-start;
-
-    height:92vh;
+    height:100vh;
 
     min-height:720px;
 
