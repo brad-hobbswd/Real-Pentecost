@@ -64,3 +64,34 @@ if (year) {
     year.textContent = new Date().getFullYear();
 
 }
+
+/*======================================
+Mobile Navigation
+======================================*/
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+if (menuToggle && navLinks) {
+
+    menuToggle.addEventListener("click", () => {
+
+        navLinks.classList.toggle("show");
+
+    });
+
+}
+
+/*======================================
+Close Mobile Navigation
+======================================*/
+
+document.querySelectorAll(".nav-links a").forEach((link) => {
+
+    link.addEventListener("click", () => {
+
+        navLinks.classList.remove("show");
+
+    });
+
+});
