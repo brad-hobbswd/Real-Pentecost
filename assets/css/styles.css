@@ -2482,3 +2482,34 @@ A dedicated editorial treatment for the opening narrative.
 .chapter-twelve-page .explore{padding:3.2rem 0}
 .chapter-twelve-page .explore .container{width:calc(100% - 32px)}
 }
+
+
+/* SCRIPTURE STUDY GUIDE: EDITORIAL PAGE DESIGN */
+.study-guide-page{background:#f5f1e8}
+.study-guide-page .study-guide-hero{position:relative;overflow:hidden;padding:clamp(4.5rem,9vw,7.5rem) 1.5rem;background:linear-gradient(135deg,#101d32 0%,#1b304b 62%,#263c55 100%);color:#fff;border-radius:0 0 30px 30px}
+.study-guide-page .study-guide-hero .container{max-width:940px;margin:0 auto}
+.study-guide-page .study-guide-hero .section-heading{max-width:800px;margin:0 auto;text-align:center}
+.study-guide-page .study-guide-hero h1{color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.5rem,5.5vw,4.35rem);line-height:1.08;margin:0 0 1.35rem}
+.study-guide-page .study-guide-hero p{color:#e8e5dc;font-size:clamp(1.05rem,2vw,1.22rem);line-height:1.85;max-width:760px;margin:0 auto}
+.study-guide-page .study-guide-hero .container>p{max-width:760px;margin:2rem auto 0;color:#f0ede6;line-height:1.9;text-align:center}
+.study-guide-page .study-guide-scripture{max-width:1000px;margin:2.5rem auto 1rem;padding:0 1.5rem;background:transparent}
+.study-guide-page .study-guide-scripture .container{max-width:900px;margin:0 auto;padding:2rem clamp(1.5rem,4vw,3.25rem);background:#fffdf8;border:1px solid #e5dccb;border-left:4px solid #b58b45;border-radius:16px;box-shadow:0 12px 34px rgba(28,35,44,.07)}
+.study-guide-page .study-guide-scripture blockquote{margin:.8rem 0 0;color:#27374a;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.15rem,2.4vw,1.55rem);line-height:1.65}
+.study-guide-page .study-topic-section,.study-guide-page .study-materials-section,.study-guide-page .pentecost-reflections-section,.study-guide-page .continue-exploring-section{padding:clamp(3rem,6vw,5rem) 1.5rem;background:transparent}
+.study-guide-page .study-topic-section .container,.study-guide-page .study-materials-section .container,.study-guide-page .pentecost-reflections-section .container,.study-guide-page .continue-exploring-section .container{max-width:1160px;margin:0 auto}
+.study-guide-page .section-heading{max-width:820px;margin:0 auto 2.5rem;text-align:center}
+.study-guide-page .section-heading h2{color:#17283e;font-family:Georgia,"Times New Roman",serif;font-size:clamp(2rem,4vw,2.8rem);line-height:1.2;margin-bottom:.8rem}
+.study-guide-page .section-heading p{color:#596474;font-size:1.04rem;line-height:1.8}
+.study-guide-page .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;align-items:stretch}
+.study-guide-page .card{display:flex;flex-direction:column;min-width:0;padding:1.65rem;background:#fffdf9;border:1px solid #e8dfd1;border-radius:16px;box-shadow:0 8px 24px rgba(28,35,44,.055);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.study-guide-page .card:hover{transform:translateY(-4px);border-color:#c6a66e;box-shadow:0 14px 30px rgba(28,35,44,.1)}
+.study-guide-page .card h3{color:#1b304b;font-family:Georgia,"Times New Roman",serif;font-size:1.25rem;line-height:1.35;margin:0 0 .75rem}
+.study-guide-page .card p{flex:1;color:#596474;line-height:1.75;margin-bottom:1.25rem}
+.study-guide-page .card .text-link{align-self:flex-start;color:#8a642d;font-weight:700;text-decoration:none;border-bottom:1px solid rgba(138,100,45,.35);padding-bottom:.2rem}
+.study-guide-page .card .text-link:hover{color:#17283e;border-color:#17283e}
+.study-guide-page .study-materials-section .container>p{max-width:760px!important;margin:2.5rem auto 0!important;padding:1.5rem 2rem;color:#4e5a68;background:#eee7d9;border-radius:14px;line-height:1.8}
+.study-guide-page .pentecost-reflections-section{background:#eee8dc}
+.study-guide-page .continue-exploring-section{padding-bottom:5.5rem}
+@media(max-width:900px){.study-guide-page .cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.study-guide-page .study-guide-hero{padding:4rem 1.1rem;border-radius:0 0 20px 20px}.study-guide-page .study-guide-scripture{margin:1.5rem auto .5rem;padding:0 1rem}.study-guide-page .study-guide-scripture .container{padding:1.5rem 1.25rem}.study-guide-page .study-topic-section,.study-guide-page .study-materials-section,.study-guide-page .pentecost-reflections-section,.study-guide-page .continue-exploring-section{padding:3rem 1rem}.study-guide-page .cards{grid-template-columns:1fr;gap:1rem}.study-guide-page .card{padding:1.4rem}.study-guide-page .section-heading{margin-bottom:1.8rem}}
+
