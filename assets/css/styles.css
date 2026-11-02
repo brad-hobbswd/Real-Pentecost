@@ -2702,3 +2702,40 @@ footer>.footer-legal{flex-direction:row;justify-content:center;flex-wrap:wrap;ga
 footer>.footer-legal a{margin:0}
 @media(max-width:900px){.footer-grid{grid-template-columns:1fr;gap:2rem;text-align:center}.footer-legal{align-items:center}.footer-legal h4{margin-bottom:.8rem}}
 
+
+
+
+/* REAL PENTECOST: FAQ EDITORIAL REDESIGN */
+.faq-page{background:#f4f0e7;color:#344052}
+.faq-page .faq-hero{margin:0 1.25rem;padding:clamp(4.5rem,8vw,6.5rem) 1.5rem 3.7rem;background:linear-gradient(130deg,#101d32,#1b304b 65%,#263c55);border:1px solid rgba(181,139,69,.35);border-radius:0 0 26px 26px;color:#fff}
+.faq-page .faq-hero .container{max-width:920px;margin:auto;text-align:center}
+.faq-page .faq-eyebrow{display:block;margin:0 0 1rem;color:#c9a66b;font:700 .72rem/1.5 Montserrat,sans-serif;letter-spacing:.19em;text-transform:uppercase}
+.faq-page .faq-hero h1{margin:0 0 1rem;color:#fff;font:normal clamp(2.65rem,6vw,4.65rem)/1.08 Georgia,"Times New Roman",serif;letter-spacing:-.025em}
+.faq-page .faq-hero-subtitle{margin:0 auto 1.25rem;color:#eadfcf;font:italic clamp(1.15rem,2.2vw,1.45rem)/1.6 Georgia,"Times New Roman",serif}
+.faq-page .faq-hero-copy{max-width:790px;margin:0 auto;color:#f0eee9;font-size:1.04rem;line-height:1.9}
+.faq-page .faq-scripture{padding:2.3rem 1.5rem;background:transparent}
+.faq-page .faq-scripture .container{max-width:900px;margin:auto;padding:2rem clamp(1.5rem,4vw,3rem);background:#fffdf8;border:1px solid #e5dccb;border-left:4px solid #b58b45;border-radius:15px;box-shadow:0 10px 28px rgba(28,35,44,.06);text-align:center}
+.faq-page .faq-scripture-label{color:#98713b;font:700 .72rem Montserrat,sans-serif;letter-spacing:.2em}
+.faq-page .faq-scripture blockquote{margin:.85rem 0 0;color:#26384e;font:clamp(1.15rem,2.4vw,1.5rem)/1.7 Georgia,"Times New Roman",serif}
+.faq-page .faq-questions,.faq-page .faq-continue{padding:clamp(3.5rem,7vw,5.5rem) 1.5rem}
+.faq-page .faq-questions .container,.faq-page .faq-continue .container{max-width:1120px;margin:auto}
+.faq-page .faq-section-heading{max-width:790px;margin:0 auto 2.5rem;text-align:center}
+.faq-page .faq-section-heading h2{margin:0 0 .8rem;color:#192c43;font:normal clamp(2rem,4vw,2.8rem)/1.2 Georgia,"Times New Roman",serif}
+.faq-page .faq-section-heading p{margin:0 auto;color:#596474;line-height:1.85;font-size:1rem}
+.faq-page .faq-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.1rem}
+.faq-page .faq-card{position:relative;min-width:0;padding:1.65rem 1.5rem 1.55rem;background:#fffdf9;border:1px solid #e7dfd2;border-radius:15px;box-shadow:0 8px 24px rgba(28,35,44,.055);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.faq-page .faq-card:hover{transform:translateY(-3px);border-color:#c6a66e;box-shadow:0 13px 28px rgba(28,35,44,.09)}
+.faq-page .faq-number{display:inline-block;margin-bottom:.8rem;color:#a47c40;font:700 .72rem Montserrat,sans-serif;letter-spacing:.14em}
+.faq-page .faq-card h3{margin:0 0 .7rem;color:#1b304b;font:normal 1.28rem/1.35 Georgia,"Times New Roman",serif}
+.faq-page .faq-card p{margin:0;color:#596474;font-size:.98rem;line-height:1.8}
+.faq-page .faq-continue{background:#ebe5d9}
+.faq-page .faq-continue-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.1rem}
+.faq-page .faq-next-card{display:flex;flex-direction:column;padding:1.7rem;background:#fffdf9;border:1px solid #e7dfd2;border-radius:15px;box-shadow:0 8px 24px rgba(28,35,44,.055)}
+.faq-page .faq-next-card h3{margin:0 0 .7rem;color:#1b304b;font:normal 1.3rem/1.35 Georgia,"Times New Roman",serif}
+.faq-page .faq-next-card p{flex:1;margin:0 0 1.2rem;color:#596474;font-size:.98rem;line-height:1.8}
+.faq-page .faq-link{align-self:flex-start;color:#8a642d;font:700 .8rem/1.5 Montserrat,sans-serif;letter-spacing:.035em;text-decoration:none;border-bottom:1px solid rgba(138,100,45,.4);padding-bottom:.25rem}
+.faq-page .faq-link span{margin-left:.25rem}
+.faq-page .faq-link:hover{color:#17283e;border-color:#17283e}
+@media(max-width:850px){.faq-page .faq-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.faq-page .faq-continue-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.faq-page .faq-hero{margin:0 .65rem;padding:3.8rem 1.1rem 2.5rem;border-radius:0 0 20px 20px}.faq-page .faq-hero-copy{font-size:.98rem;line-height:1.85}.faq-page .faq-scripture{padding:1.5rem 1rem}.faq-page .faq-scripture .container{padding:1.5rem 1.2rem}.faq-page .faq-questions,.faq-page .faq-continue{padding:3rem 1rem}.faq-page .faq-grid{grid-template-columns:1fr;gap:.85rem}.faq-page .faq-card,.faq-page .faq-next-card{padding:1.35rem}.faq-page .faq-section-heading{margin-bottom:1.8rem}}
