@@ -2689,3 +2689,16 @@ A dedicated editorial treatment for the opening narrative.
 @media(max-width:760px){.contact-page .contact-explore .cards{grid-template-columns:1fr}}
 @media(max-width:600px){.contact-page .contact-hero{margin:0 .65rem;padding:3.7rem 1.1rem 2.4rem;border-radius:0 0 20px 20px}.contact-page .contact-hero .container>p{font-size:1rem;line-height:1.85}.contact-page .contact-hero .contact-details{grid-template-columns:1fr;gap:.9rem;margin-top:2rem}.contact-page .contact-scripture{margin:1.5rem auto;padding:0 1rem}.contact-page .contact-scripture .container{padding:1.5rem 1.25rem}.contact-page .contact-explore{padding:3rem 1rem}}
 
+
+
+
+/* SITE-WIDE LEGAL FOOTER LINKS */
+.footer-grid{grid-template-columns:2fr 1fr 1fr 1fr}
+.footer-legal{display:flex;flex-direction:column;gap:.15rem}
+.footer-legal h4{color:#fff;margin:0 0 1.5rem}
+.footer-legal a{display:block;color:rgba(255,255,255,.75);margin-bottom:.9rem;text-decoration:none;transition:color .25s ease}
+.footer-legal a:hover{color:var(--gold)}
+footer>.footer-legal{flex-direction:row;justify-content:center;flex-wrap:wrap;gap:.8rem 1.8rem;margin:2rem auto 0;padding:0 1rem}
+footer>.footer-legal a{margin:0}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr;gap:2rem;text-align:center}.footer-legal{align-items:center}.footer-legal h4{margin-bottom:.8rem}}
+
