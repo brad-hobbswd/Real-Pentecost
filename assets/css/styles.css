@@ -1313,3 +1313,218 @@ SMALL PHONES
     }
 
 }
+
+
+/*==================================================
+PROLOGUE READING LAYOUT
+A dedicated editorial treatment for the opening narrative.
+==================================================*/
+.prologue-page{
+    background:#f2efe8;
+}
+.prologue-page .prologue-reading{
+    padding:0 0 clamp(4rem,8vw,7rem);
+    background:#f2efe8;
+}
+.prologue-page .prologue-hero{
+    position:relative;
+    overflow:hidden;
+    padding:clamp(4.5rem,9vw,7.5rem) 1.5rem clamp(3.5rem,7vw,5.5rem);
+    background:
+      radial-gradient(ellipse at 50% 0%,rgba(223,174,66,.16),transparent 58%),
+      linear-gradient(145deg,#071726 0%,#102d45 58%,#17364a 100%);
+    color:#fff;
+    text-align:center;
+}
+.prologue-page .prologue-hero:after{
+    content:"";
+    position:absolute;
+    width:min(76vw,760px);
+    height:min(76vw,760px);
+    border:1px solid rgba(244,200,98,.13);
+    border-radius:50%;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-30%);
+    pointer-events:none;
+}
+.prologue-page .prologue-hero-inner{
+    position:relative;
+    z-index:1;
+    width:min(100%,900px);
+    margin:0 auto;
+}
+.prologue-page .prologue-kicker,
+.prologue-page .prologue-label{
+    display:block;
+    font-family:"Montserrat",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+}
+.prologue-page .prologue-kicker{
+    margin-bottom:2.1rem;
+    color:rgba(255,255,255,.62);
+    font-size:.7rem;
+}
+.prologue-page .prologue-label{
+    margin-bottom:1rem;
+    color:var(--gold-light);
+    font-size:.78rem;
+}
+.prologue-page .prologue-hero h1{
+    margin:0 auto 1.2rem;
+    color:#fff;
+    font-size:clamp(2.8rem,7vw,5.2rem);
+    line-height:1.08;
+    letter-spacing:.01em;
+}
+.prologue-page .prologue-hero p{
+    max-width:620px;
+    margin:0 auto;
+    color:rgba(255,255,255,.78);
+    font-family:"Lora",serif;
+    font-size:clamp(1.05rem,2vw,1.3rem);
+    line-height:1.8;
+}
+.prologue-page .prologue-rule{
+    display:flex;
+    justify-content:center;
+    margin-top:2.5rem;
+}
+.prologue-page .prologue-rule span{
+    display:block;
+    width:86px;
+    height:2px;
+    background:var(--gold);
+}
+.prologue-page .prologue-article{
+    width:min(calc(100% - 48px),820px);
+    margin:clamp(2.5rem,5vw,4.5rem) auto 0;
+    padding:clamp(2rem,5vw,4.5rem) clamp(1.35rem,5vw,4.5rem);
+    background:#fffefa;
+    border:1px solid rgba(16,39,61,.08);
+    border-radius:5px;
+    box-shadow:0 22px 65px rgba(7,23,38,.08);
+    color:#35414a;
+    font-size:1.13rem;
+    line-height:2;
+}
+.prologue-page .prologue-article p{
+    max-width:none;
+    margin:0 0 1.65rem;
+    color:#35414a;
+    font-size:1.08rem;
+    line-height:2;
+    text-align:left;
+}
+.prologue-page .prologue-article .opening-paragraph{
+    font-size:1.17rem;
+}
+.prologue-page .prologue-article .opening-paragraph:first-letter{
+    float:left;
+    padding:.08rem .5rem 0 0;
+    color:#b88a2d;
+    font-family:"Playfair Display",serif;
+    font-size:4.4rem;
+    line-height:.9;
+}
+.prologue-page .prologue-article h2{
+    margin:3.2rem 0 1.15rem;
+    padding-left:1.1rem;
+    border-left:3px solid var(--gold);
+    color:#10273d;
+    font-size:clamp(1.55rem,3vw,2.1rem);
+    line-height:1.25;
+}
+.prologue-page .prologue-pullquote{
+    margin:2.4rem 0;
+    padding:1.45rem 1.8rem;
+    border-top:1px solid rgba(184,138,45,.45);
+    border-bottom:1px solid rgba(184,138,45,.45);
+    color:#10273d;
+    font-family:"Playfair Display",serif;
+    font-size:clamp(1.35rem,2.7vw,1.8rem);
+    font-style:italic;
+    line-height:1.5;
+    text-align:center;
+}
+.prologue-page .prologue-closing-quote{
+    display:flex;
+    flex-direction:column;
+    gap:.55rem;
+    margin:2.8rem 0 0;
+    padding:2rem 1.5rem;
+    background:#10273d;
+    border-radius:4px;
+    color:rgba(255,255,255,.82);
+    font-family:"Playfair Display",serif;
+    font-size:clamp(1.2rem,2.5vw,1.55rem);
+    line-height:1.6;
+    text-align:center;
+}
+.prologue-page .prologue-closing-quote strong{
+    color:var(--gold-light);
+    font-weight:700;
+}
+.prologue-page .explore{
+    padding:clamp(3.5rem,7vw,6rem) 0;
+}
+.prologue-page .explore .section-heading{
+    margin-bottom:3rem;
+}
+.prologue-page .explore .cards{
+    align-items:stretch;
+}
+.prologue-page .explore .card{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.prologue-page .explore .card .text-link{
+    margin-top:auto;
+}
+@media(max-width:600px){
+    .prologue-page .prologue-hero{
+        padding:3.8rem 1.1rem 3.2rem;
+    }
+    .prologue-page .prologue-kicker{
+        font-size:.6rem;
+        letter-spacing:.14em;
+        margin-bottom:1.7rem;
+    }
+    .prologue-page .prologue-article{
+        width:calc(100% - 28px);
+        margin-top:1.25rem;
+        padding:1.8rem 1.25rem 2rem;
+        border-radius:4px;
+        font-size:1rem;
+        line-height:1.85;
+    }
+    .prologue-page .prologue-article p,
+    .prologue-page .prologue-article .opening-paragraph{
+        font-size:1rem;
+        line-height:1.85;
+        margin-bottom:1.35rem;
+    }
+    .prologue-page .prologue-article .opening-paragraph:first-letter{
+        font-size:3.5rem;
+    }
+    .prologue-page .prologue-article h2{
+        margin-top:2.5rem;
+        margin-bottom:1rem;
+        padding-left:.85rem;
+    }
+    .prologue-page .prologue-pullquote{
+        margin:1.8rem 0;
+        padding:1.2rem .6rem;
+    }
+    .prologue-page .prologue-closing-quote{
+        padding:1.5rem 1rem;
+    }
+    .prologue-page .explore{
+        padding:3.5rem 0;
+    }
+    .prologue-page .explore .container{
+        width:calc(100% - 32px);
+    }
+}
